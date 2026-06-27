@@ -1,0 +1,32 @@
+const fs = require("fs");
+const input = fs.readFileSync(0,"utf8").trim().split("\n");
+
+let [n, m, k] = input[0].split(" ").map(Number);
+
+let data = input[1].split(" ").map(Number);
+
+data.sort((a,b) => a - b);
+
+let first = data[n-1];
+let second = data[n-2];
+
+let result = 0;
+
+if (first === second) {
+  result = first * m;
+}else {
+  let  num = 0;
+
+  for (let i = 0; i < m; i++){
+    if (num < k){
+      result += first;
+      num += 1;
+    } else {
+      result += second;
+      num = 0;
+    }
+    
+  }
+}
+
+console.log(result);

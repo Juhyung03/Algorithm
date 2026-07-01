@@ -6,6 +6,7 @@ const input = fs.readFileSync(0,"utf8").trim().split("\n");
 //n, k 입력
 let [n, k] = input[0].split(" ").map(Number);
 
+//result 0으로 초기화
 let result = 0;
 
 while (true){

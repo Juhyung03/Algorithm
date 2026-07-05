@@ -1,14 +1,15 @@
-// 입력받기
+//✅
+//입력받기
 const fs = require("fs");
 const input = fs.readFileSync(0,"utf8").trim().split("\n");
 
-// N, M, K 입력
+//N, M, K 입력
 let [n, m, k] = input[0].split(" ").map(Number);
 
-// N개의 수 입력
+//N개의 수 입력
 let data = input[1].split(" ").map(Number);
 
-// 오름차순 정렬
+//오름차순 정렬
 data.sort((a,b) => a - b);
 
 let first = data[n-1];

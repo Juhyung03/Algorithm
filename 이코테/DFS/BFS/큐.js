@@ -1,8 +1,5 @@
-//🔁
-// queue은 push , shift 사용
-
+//🔁✅
 let queue = [];
-
 queue.push(5);
 queue.push(2);
 queue.push(3);

@@ -1,4 +1,4 @@
-//
+//🔁✅
 //반복적으로 구현한 n!
 function factorialIterative(n){
   let result = 1;

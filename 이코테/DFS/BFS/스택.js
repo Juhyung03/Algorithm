@@ -1,4 +1,4 @@
-//🔁
+//🔁✅
 // stack은 push , pop 사용
 let stack = [];
 

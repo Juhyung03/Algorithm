@@ -1,4 +1,4 @@
-//🔁
+//🔁🔁
 //입력받기
 const fs = require("fs");
 const input = fs.readFileSync(0,"utf8").trim().split("\n");

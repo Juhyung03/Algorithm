@@ -1,5 +1,6 @@
-//🔁
+//🔁✅
 //입력받기
+//핵심: i번째 창고를 털 때, i-2번째 이전의 선택 과정은 신경 쓰지 않는다
 const fs = require("fs");
 const input = fs.readFileSync(0,"utf8").trim().split("\n");
 

@@ -1,4 +1,4 @@
-//🔁
+//🔁✅
 //입력받기
 const fs = require("fs");
 const input = fs.readFileSync(0,"utf8").trim().split("\n");
@@ -6,7 +6,7 @@ const input = fs.readFileSync(0,"utf8").trim().split("\n");
 const x = Number(input[0]);
 
 //앞서 계산된 결과를 저장하기 위한 DP 테이블 초기화
-const d = new Array(30001).fill(0);
+const d = new Array(x+1).fill(0);
 
 //다이다믹 프로그래밍 진행 (보텀업)
 for (let i = 2; i <= x; i++) {

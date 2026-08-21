@@ -1,3 +1,4 @@
+//🔁
 //각 노드의 부모를 저장하는 배열
 //처음에는 자기 자신이 부모
 const parent = Array.from ({ length: n+1}, (_, i) => i);
